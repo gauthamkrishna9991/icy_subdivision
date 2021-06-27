@@ -1,6 +1,11 @@
-project('icy_subdivision', 'c',
+project(
+  'icy_subdivision',
+  'c',
   version : '0.1',
-  default_options : ['warning_level=3'])
+  default_options : [
+    'warning_level=3'
+  ]
+)
 
 # import the source files
 subdir('src')
