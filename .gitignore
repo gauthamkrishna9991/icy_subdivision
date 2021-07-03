@@ -1,0 +1,10 @@
+# Gitignore for icy_subivision
+debug/
+
+# Remove some standard builddir files
+_build/
+build/
+builddir/
+debug/
+release/
+target/

@@ -5,7 +5,16 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(gdb) Launch",
+            "type": "lldb",
+            "request": "launch",
+            "name": "Launch (LLDB)",
+            "program": "${workspaceFolder}/debug/icy_subdivision",
+            "preLaunchTask": "Meson: Build icy_subdivision",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/debug/icy_subdivision",

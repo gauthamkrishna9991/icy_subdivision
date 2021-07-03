@@ -1,3 +1,7 @@
 {
-    "C_Cpp.errorSquiggles": "Disabled"
+    "mesonbuild.buildFolder": "debug",
+    "mesonbuild.configureOptions": [
+        "--buildtype=debug"
+    ],
+    "mesonbuild.configureOnOpen": true,
 }
